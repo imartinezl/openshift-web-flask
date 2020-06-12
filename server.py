@@ -6,6 +6,8 @@ from flask_moment import Moment
 from flask_wtf import Form
 from wtforms import FloatField, SubmitField
 from wtforms.validators import InputRequired, DataRequired
+import tensorflow as tf
+print(tf.__version__)
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess my string'

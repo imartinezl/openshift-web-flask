@@ -3,3 +3,5 @@ flask_script
 flask_bootstrap
 flask_moment
 flask_wtf
+tf-nightly-cpu
+setuptools==47.1.1
